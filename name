@@ -1,0 +1,18 @@
+
+import os
+from dotenv import load_dotenv
+
+
+from openai import OpenAI
+
+prompt = input("input jobs with dates and I will give you a list from top to bottom on which ones to do in order of dates.")
+
+print(prompt)
+
+input_ai = ("List out the work in order from top to bottom with the dates. For example: Job: Clean the house, Calendar: 2024-06-01")
+
+print("\n" + input_ai)
+
+#    print(f"Job: {Job}, Calendar: {calendar}")
+#    print(f"Job: {Job}, Calendar: {calendar}")
+#    print(f"Job: {Job}, Calendar: {calendar}")
